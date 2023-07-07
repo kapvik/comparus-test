@@ -1,0 +1,13 @@
+<div class="container">
+    <h3
+        class="title"
+        [class.color-text-win]="isUserWin"
+        [class.color-text-defeat]="!isUserWin"
+    >
+        {{ (isUserWin ? 'You Win' : 'You Loose') | uppercase  }}
+    </h3>
+        
+    <p class="info text">SCORE: {{ score }}</p>
+
+    <button class="button" (click)="handleRetry.emit()">RETRY</button>
+</div>
