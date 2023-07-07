@@ -93,3 +93,52 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+.title {
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    font-family: Phosphate, monospace;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 32px;
+    color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+}
+
+.color-text-win {
+    color: #7cfc00;
+}
+
+.color-text-defeat {
+    color: #ff4500;
+}
+
+.color-text-ready {
+    color: #ffff00;
+}
+
+.button {
+    font-size: 24px;
+    font-family: monospace;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #7cfc00;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999999;
+}
+
+.button:active {
+    background-color: #6dd902;
+    box-shadow: 0 5px #666666;
+    transform: translateY(4px);
+  }
+
+.button:hover {
+    background-color: #6dd902;
+}
